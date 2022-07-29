@@ -136,7 +136,7 @@ $paleta:(
 }
 
 // // bucle evolucionado
-@each $icono in facebook, twitter, instagram{
+@each $icono in facebook, instagram{
 	.#{$icono}-icon{
 		background-image:url(../img/#{$icono}.svg);
 		width: 30px;

@@ -1,3 +1,4 @@
+/*Nav*/
 nav {
     background: linear-gradient(90deg, rgba(216, 206, 165, 1) 0%, rgba(189, 142, 113, 1) 51%);
 
@@ -15,6 +16,7 @@ nav {
     }
 }
 
+/*Banner*/
 .banner {
     @include box-flex(center, center, column);
     background: radial-gradient(circle, rgba(189, 142, 113, 1) 71%, rgba(216, 206, 165, 1) 100%);

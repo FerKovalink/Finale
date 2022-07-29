@@ -1,0 +1,212 @@
+/* Productos */
+.product-base{
+    @extend %div-base;
+}
+
+.carrusel-body h2 {
+    color: map-get($map: $color, $key: "bg");
+    font-size: 26px;
+    font-weight: $textLight;
+    text-align: center;
+    text-transform: uppercase;
+    position: relative;
+    margin: 30px 0 60px;
+    font-family: map-get($map: $fonts, $key: "decoFont");
+
+    &:after {
+        content: "";
+        width: 100px;
+        position: absolute;
+        margin: 0 auto;
+        height: 4px;
+        border-radius: 1px;
+        background: map-get($map: $color, $key: "violeta");
+        left: 0;
+        right: 0;
+        bottom: -20px;
+    }
+}
+
+.carousel {
+    margin: 50px auto;
+    padding: 0 70px;
+
+    .thumb-wrapper {
+        padding: 25px 15px;
+        background: map-get($map: $color, $key: "bg");
+        border-radius: 6px;
+        text-align: center;
+        position: relative;
+        box-shadow: 0 2px 3px rgba(0, 0, 0, 0.2);
+    }
+
+    .item {
+        color: map-get($map: $color, $key: "gris");
+        min-height: 325px;
+        text-align: center;
+        overflow: hidden;
+
+        img {
+            max-width: $w-100;
+            max-height: $w-100;
+            display: inline-block;
+            position: absolute;
+            bottom: 0;
+            margin: 0 auto;
+            left: 0;
+            right: 0;
+            border-radius: 10px;
+        }
+
+        h4 {
+            font-size: 18px;
+            font-family: map-get($map: $fonts, $key: "decoFont");
+        }
+
+        h4,
+        p,
+        ul {
+            margin-bottom: 5px;
+        }
+
+        .img-box {
+            height: 220px;
+            margin-bottom: 20px;
+            width: $w-100;
+            position: relative;
+        }
+    }
+
+    .thumb-content .btn {
+        color: map-get($map: $color, $key: "violeta");
+        font-size: 11px;
+        text-transform: uppercase;
+        font-weight: bold;
+        background: none;
+        border: 1px solid map-get($map: $color, $key: "violeta");
+        padding: 6px 14px;
+        margin-top: 5px;
+        line-height: 16px;
+        border-radius: 20px;
+
+        i {
+            font-size: 14px;
+            font-weight: bold;
+            margin-left: 5px;
+        }
+
+        &:hover,
+        &:focus {
+            color: $white;
+            background: map-get($map: $color, $key: "violeta");
+            box-shadow: none;
+        }
+
+    }
+
+    .item-price {
+        font-size: 13px;
+        padding: 2px 0;
+
+        strike {
+            opacity: 0.7;
+            margin-right: 5px;
+        }
+    }
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+    height: 44px;
+    width: auto;
+    background: map-get($map: $color, $key: "violeta");
+    margin: auto 0;
+    border-radius: 360px;
+    opacity: 0.8;
+
+    i {
+        font-size: 36px;
+        position: absolute;
+        top: $w-50;
+        display: inline-block;
+        margin: -19px 0 0 0;
+        z-index: 5;
+        left: 0;
+        right: 0;
+        color: $white;
+        text-shadow: none;
+        font-weight: bold;
+    }
+
+    &:hover {
+        background: map-get($map: $color, $key: "violeta");
+        opacity: 1;
+    }
+}
+
+.carousel-control-prev i {
+    margin-left: -2px;
+}
+
+.carousel-control-next i {
+    margin-right: -4px;
+}
+
+.carousel .wish-icon {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    z-index: 99;
+    cursor: pointer;
+    font-size: 16px;
+    color: #abb0b8;
+
+    .fa-heart {
+        color: #ff6161;
+    }
+}
+
+.star-rating li {
+    padding: 0;
+}
+
+.star-rating i {
+    font-size: 14px;
+    color: #ffc000;
+}
+
+
+/* Galeria */
+
+.galeria-container {
+    display: flex;
+    margin: 3% 2% 2% 2%;
+    padding: 1% 2%;
+    flex-wrap: wrap;
+    background: radial-gradient(circle, rgba(252, 248, 232, 1) 0%, rgba(189, 142, 113, 1) 38%);
+    border-radius: 10px;
+}
+
+.galeria {
+    flex: $w-50;
+    padding: 5px;
+}
+
+.galeria__img {
+    width: $w-100;
+    border-radius: 5px;
+    margin-top: 1%;
+}
+
+.galeria-body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.galeria-bt {
+    width: $w-100;
+    img {
+        width: $w-200;
+    }
+}

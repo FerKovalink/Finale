@@ -484,6 +484,7 @@ main{
 	}
 }
 */
+
 * {
   margin: 0;
   padding: 0;
@@ -498,6 +499,14 @@ body {
   background-color: #FCF8E8;
 }
 
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+/*Nav*/
 nav {
   background: linear-gradient(90deg, rgb(216, 206, 165) 0%, rgb(189, 142, 113) 51%);
 }
@@ -511,6 +520,7 @@ nav img {
   width: 25%;
 }
 
+/*Banner*/
 .banner {
   display: flex;
   justify-content: center;
@@ -523,18 +533,7 @@ nav img {
   width: 70%;
 }
 
-.div-base {
-  background-color: #bd8e71;
-  margin: 10px 5px;
-  border-radius: 20px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-}
-
-/* Formulario */
-
+/* Contacto */
 .contacto {
   width: 90%;
   height: auto;
@@ -548,12 +547,16 @@ nav img {
 }
 
 ::-webkit-input-placeholder {
-  color: #a8a8a8;
+  color: #747d89;
 }
 
 ::-webkit-textarea-placeholder {
-  color: #a8a8a8;
+  color: #747d89;
 }
+
+/* Productos */
+
+/* Galeria */
 
 /* Footer */
 .foot {

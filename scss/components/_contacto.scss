@@ -1,11 +1,7 @@
-/* Formulario */
+/* Contacto */
 
-.contact__side {
-    @include box-flex(center, center, column);
-    background-color: map-get($map: $color, $key: "marco");
-    width: $w-90;
-    margin: 20px 0 20px 6%;
-    border-radius: 20px;
+.contact-base{
+    @extend %div-base;
 }
 
 .contacto {
@@ -17,7 +13,7 @@
     padding-bottom: 20px;
     background-color: map-get($map: $color, $key: "marron-l");
     padding-left: 30px;
-    font-family: map-get($map: $fonts, $key:"noto" );
+    font-family: map-get($map: $fonts, $key:"noto");
 }
 
 .contacto__vid {
@@ -32,7 +28,7 @@
     display: none;
 }
 
-.formulario{
+.formulario {
 
     h1 {
         font-size: 2.4rem;
@@ -43,12 +39,12 @@
     h3 {
         font-size: 1.3rem;
         padding-bottom: 30px;
-        color: map-get($map: $color, $key: "marron");
+        color: map-get($map: $color, $key: "black");
     }
-    
+
     p {
         font-size: $textSm;
-        color: map-get($map: $color, $key: "marron");
+        color: map-get($map: $color, $key: "black");
     }
 
     input {
@@ -91,7 +87,7 @@
         border-style: solid;
         border-radius: 10px;
         cursor: pointer;
-    
+
         p {
             color: white;
         }
@@ -129,4 +125,3 @@
     outline: 0;
     border: 1px solid map-get($map: $color, $key: "verde-f");
 }
-
