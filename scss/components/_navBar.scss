@@ -1,0 +1,25 @@
+nav {
+    background: linear-gradient(90deg, rgba(216, 206, 165, 1) 0%, rgba(189, 142, 113, 1) 51%);
+
+    ul {
+        li {
+            font-size: 1.3rem;
+            a {
+                font-family: map-get($map:$fonts, $key:"navFont");
+            }
+        }
+    }
+
+    img {
+        width: $w-25;
+    }
+}
+
+.banner {
+    @include box-flex(center, center, column);
+    background: radial-gradient(circle, rgba(189, 142, 113, 1) 71%, rgba(216, 206, 165, 1) 100%);
+    margin-top: 10px;
+    img {
+        width: $w-70;
+    }
+}

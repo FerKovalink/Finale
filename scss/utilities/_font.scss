@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Splash&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arima&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans');
+
+
+//Fonts
+$fonts:(
+	'decoFont': ('Arima', cursive),
+    'navFont': sans-serif,
+    'noto': ('Noto Sans', sans-serif),
+);
+
+
+
+$textLg: 3rem;
+$textMd: 2rem;
+$textSm: 1.5rem;
+
+$textBold: 700;
+$textRegular: 400;
+$textLight: 300;
