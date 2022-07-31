@@ -4,7 +4,7 @@ nav {
 
     ul {
         li {
-            font-size: 1.3rem;
+            font-size: 1.5rem;
             a {
                 font-family: map-get($map:$fonts, $key:"navFont");
             }
@@ -12,7 +12,12 @@ nav {
     }
 
     img {
-        width: $w-25;
+        width: 80px;
+
+        @include medias(tablet){
+            width: 100px
+        }
+
     }
 }
 

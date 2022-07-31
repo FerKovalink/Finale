@@ -1,23 +1,13 @@
 @mixin box-flex($justify, $align, $dire){
-	display: flex;
+	display: flex !important ;
 	justify-content: $justify;
 	align-items:$align;
 	flex-direction: $dire;
 }
 
-@mixin base {
-	background-color: map-get($map: $color, $key: "marron");
-    margin: 10px 5px;
-    border-radius: 20px;
-}
 
 @mixin medias($breakpoint){
-	@if $breakpoint == mobile{
-		@media (min-width: 320px){
-			@content;
-		}
-	}
-	@if $breakpoint == tablet{
+		@if $breakpoint == tablet{
 		@media (min-width: 600px){
 			@content;
 		}

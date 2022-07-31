@@ -10,15 +10,32 @@
         color: map-get($map: $color, $key: "marron-r");
         font-size: $textSm;
         padding: 0 20px;
+
+        @media (min-width: 480px) {
+            font-size: $textMd;
+        }
+
+        @include medias(tablet){
+            font-size: 2.7rem;
+        }
     }
 }
 
-
 .foot__logo {
     width: 40px;
+  
+    @media (min-width: 480px) {
+        width: 50px;
+        margin-right: 20px;
+    }
     
 }
 
 .foot__icon {
     width: 35px;
+
+    @media (min-width: 480px) {
+        width: 50px;
+
+    }
 }
