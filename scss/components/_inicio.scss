@@ -172,14 +172,17 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-
     color: map-get($map: $color, $key: "white");
     animation: expand .8s ease forwards;
-    background-color: map-get($map: $color, $key: "marron");
+    background: linear-gradient(0deg, rgba(216,206,165,1) 28%, rgba(189,142,113,1) 63%);
     position: relative;
     font-family: map-get($map: $fonts, $key: "nav");
     transition: all .8s ease;
     border-radius: 20px;
+
+    @media (min-width: 820px){
+        background: linear-gradient(90deg, rgba(189,142,113,1) 47%, rgba(216,206,165,1) 84%);
+    }
 
     h1 {
         margin-top: 50px;
@@ -191,7 +194,7 @@
 
         @media (min-width: 820px) {
             margin-top: 0;
-            font-size: 5rem;
+            font-size: 3.5rem;
         }
     }
 
@@ -232,7 +235,11 @@
     animation: slideIn 1.5s ease-in-out forwards;
     border-radius: 10px;
     padding: 2%;
-    background-color: map-get($map: $color, $key: "marco");
+    background: linear-gradient(0deg, rgba(189,142,113,1) 34%, rgba(216,206,165,1) 63%);
+
+    @media (min-width: 820px){
+        background: linear-gradient(90deg, rgba(216,206,165,1) 30%, rgba(189,142,113,1) 65%);
+    }
 }
 
 .par {
