@@ -596,7 +596,7 @@ nav img {
   grid-column: 1/-1;
   grid-row: 1;
   font-family: "Prata", serif;
-  font-size: 6vw;
+  font-size: 7vw;
   width: 100%;
   z-index: 2;
 }
@@ -695,10 +695,15 @@ nav img {
   flex-direction: column;
   color: #e7e7e7;
   animation: expand 0.8s ease forwards;
-  background-color: #bd8e71;
+  background: linear-gradient(0deg, rgb(216, 206, 165) 28%, rgb(189, 142, 113) 63%);
   position: relative;
   transition: all 0.8s ease;
   border-radius: 20px;
+}
+@media (min-width: 820px) {
+  .container-info {
+    background: linear-gradient(90deg, rgb(189, 142, 113) 47%, rgb(216, 206, 165) 84%);
+  }
 }
 .container-info h1, .container-info .h1 {
   margin-top: 50px;
@@ -711,7 +716,7 @@ nav img {
 @media (min-width: 820px) {
   .container-info h1, .container-info .h1 {
     margin-top: 0;
-    font-size: 5rem;
+    font-size: 3.5rem;
   }
 }
 .container-info p {
@@ -751,7 +756,12 @@ nav img {
   animation: slideIn 1.5s ease-in-out forwards;
   border-radius: 10px;
   padding: 2%;
-  background-color: #d8cea5;
+  background: linear-gradient(0deg, rgb(189, 142, 113) 34%, rgb(216, 206, 165) 63%);
+}
+@media (min-width: 820px) {
+  .container_img {
+    background: linear-gradient(90deg, rgb(216, 206, 165) 30%, rgb(189, 142, 113) 65%);
+  }
 }
 
 .par {
