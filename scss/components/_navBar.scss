@@ -13,9 +13,11 @@ nav {
         border-radius: 360px;
         width: 550px;
     }
+
     ul {
         li {
             font-size: 1.4rem;
+
             @media (min-width: 992px) {
                 font-size: 1.8rem;
             }

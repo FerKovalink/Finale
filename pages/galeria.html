@@ -7,10 +7,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Deco Kids - Galeria</title>
     <link rel="icon" type="image/x-icon" href="../img/logos/favicon.png">
-  <!-- Metas seo -->
-  <meta name="description"
-    content="Victoria Deco Kids te ofrece el mejor catalogo, donde podras personalizar todos tus modelos!">
-  <meta name="keywords" content="bebe, cuna, ropa, deco, kids, decokids, indumentaria">
+    <!-- Metas seo -->
+    <meta name="description"
+        content="Las mejores fotos de nuestro catalogo, disfruta de todos nuestros accesorios">
+    <meta name="keywords" content="bebe, cuna, ropa, deco, kids, decokids, indumentaria">
+    <meta name="robots" content="index, follow">
     <!-- mi css -->
     <link rel="stylesheet" href="../css/main.css">
 
@@ -32,16 +33,16 @@
                     <div class="collapse navbar-collapse" id="navbarNav">
                         <ul class="navbar-nav">
                             <li class="nav-item">
-                                <a class="nav-link active" aria-current="page" href="contacto.html">Contacto</a>
+                                <a class="nav-link" href="contacto.html">Contacto</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="galeria.html">Galeria</a>
+                                <a class="nav-link active" aria-current="page" href="galeria.html">Galeria</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="productos.html">Productos</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Nosotros</a>
+                                <a class="nav-link" href="acerca.html">Nosotros</a>
                             </li>
                         </ul>
                     </div>
@@ -49,32 +50,70 @@
             </nav>
         </div>
         <div class="banner">
-            <img src="../img/logos/victoria.png">
+            <img src="../img/logos/victoria.png" alt="Banner Victoria Deco Kids">
         </div>
     </header>
 
     <main>
-        <div class="galeria-base">
-            
+        <div class="galeria-body">
+            <div class="galeria-bt">
+                <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
+                            aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1"
+                            aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2"
+                            aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active" data-bs-interval="10000">
+                            <img src="../img/chichoneras/chichonera1.jpg" class="d-block w-100"
+                                alt="Fotos de la galeria">
+                        </div>
+                        <div class="carousel-item" data-bs-interval="2000">
+                            <img src="../img/chichoneras/chichonera5.jpg" class="d-block w-100"
+                                alt="Fotos de la galeria">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="../img/chichoneras/chichonera6.jpg" class="d-block w-100"
+                                alt="Fotos de la galeria">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
         </div>
-        <!-- JavaScript Bundle with Popper -->
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
-            integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous">
-        </script>
+    </main>
+
+    </div>
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous">
+    </script>
     </main>
 
     <footer class="foot">
         <img src="../img/logos/favicon.png" class="foot__logo" alt="Logo Deco Kids">
         <h2>Deco Kids en las redes</h2>
         <div>
-          <a href="https://www.facebook.com/victoriadecokids" target="_blank">
-            <img src="../img/logos/facebook.svg" class="foot__icon" alt="Imagen Facebook">
-          </a>
-          <a href="https://www.instagram.com/victoriadecokids/" target="_blank">
-            <img src="../img/logos/instagram.svg" class="foot__icon" alt="Imagen Instagram">
-          </a>
+            <a href="https://www.facebook.com/victoriadecokids" target="_blank">
+                <img src="../img/logos/facebook.svg" class="foot__icon" alt="Imagen Facebook">
+            </a>
+            <a href="https://www.instagram.com/victoriadecokids/" target="_blank">
+                <img src="../img/logos/instagram.svg" class="foot__icon" alt="Imagen Instagram">
+            </a>
         </div>
-      </footer>
+    </footer>
 </body>
 
 </html>

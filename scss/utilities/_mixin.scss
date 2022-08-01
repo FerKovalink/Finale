@@ -31,8 +31,6 @@ main{
 }
 */
 
-
-
 %div-base {
 	@include box-flex(center, center, column);
 	background-color: map-get($map: $color, $key: "marron");
