@@ -1,7 +1,11 @@
-/* Productos */
+/* Producto */
 .product-base {
     @extend %div-base;
     width: 100% !important;
+
+    @media (min-width: 820px) {
+        width: 90% !important;
+    }
 }
 
 .carrusel-body h2 {
@@ -29,9 +33,36 @@
     }
 }
 
+.boton{
+    color: map-get($map: $color, $key: "violeta");
+    font-size: 11px;
+    text-transform: uppercase;
+    font-weight: $textBold;
+    background: none;
+    border: 1px solid map-get($map: $color, $key: "violeta");
+    padding: 6px 14px;
+    margin-top: 10px;
+    line-height: 16px;
+    border-radius: 20px;
+
+    i {
+        font-size: 14px;
+        font-weight: $textBold;
+        margin-left: 5px;
+    }
+
+    &:hover,
+    &:focus {
+        color: $white;
+        background: map-get($map: $color, $key: "violeta");
+        box-shadow: none;
+    }
+}
+
 .carousel {
     margin: 50px auto;
     padding: 0 70px;
+
 
     .thumb-wrapper {
         padding: 25px 15px;
@@ -39,7 +70,7 @@
         border-radius: 6px;
         text-align: center;
         position: relative;
-        box-shadow: 0 2px 3px rgba(0, 0, 0, 0.2);
+        box-shadow: 0 2px 3px rgba(0, 0, 0, 0.3);
     }
 
     .item {
@@ -79,33 +110,6 @@
         }
     }
 
-    .thumb-content .btn {
-        color: map-get($map: $color, $key: "violeta");
-        font-size: 11px;
-        text-transform: uppercase;
-        font-weight: $textBold;
-        background: none;
-        border: 1px solid map-get($map: $color, $key: "violeta");
-        padding: 6px 14px;
-        margin-top: 5px;
-        line-height: 16px;
-        border-radius: 20px;
-
-        i {
-            font-size: 14px;
-            font-weight: $textBold;
-            margin-left: 5px;
-        }
-
-        &:hover,
-        &:focus {
-            color: $white;
-            background: map-get($map: $color, $key: "violeta");
-            box-shadow: none;
-        }
-
-    }
-
     .item-price {
         font-size: 13px;
         padding: 2px 0;
@@ -121,7 +125,7 @@
 .carousel-control-next {
     height: 30px;
     width: auto;
-    background: map-get($map: $color, $key: "violeta");
+    background: map-get($map: $color, $key: "verde-d");
     margin: 70px 0;
     border-radius: 360px;
     opacity: 0.8;
@@ -147,14 +151,24 @@
 }
 
 .carousel-control-prev {
+    margin-left: 10px;
     i {
         margin-left: -2px;
+    }
+
+    @include medias(tablet) {
+        width: 70px !important;
     }
 }
 
 .carousel-control-next {
+    margin-right: 10px;
     i {
         margin-right: -4px;
+    }
+
+    @include medias(tablet) {
+        width: 70px !important;
     }
 }
 
@@ -182,29 +196,69 @@
     }
 }
 
+/* Animated */
+.animated {
+    width: $w-100;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: grid;
+    place-items: center;
+    overflow: hidden;
+    background: map-get($map: $color, $key: "marron");
+    border-radius: 20px;
+}
 
+.wrapper {
+    width: 100vw;
+    text-align: center;
 
-/* Galeria */
-.galeria-container {
-    display: flex;
-    width: $w-90;
-    padding: 1% 2%;
-    flex-wrap: wrap;
-    background: radial-gradient(circle, rgba(252, 248, 232, 1) 0%, rgba(189, 142, 113, 1) 38%);
-    border-radius: 10px;
-    margin: 10px 0;
+    span {
+        -webkit-text-stroke-width: 1.25px;
+        -webkit-text-stroke-color: #000;
+        font-size: 3rem;
+        text-shadow: 0 0px #f3c623, 0 0px #f2aaaa;
+        transform: translate(0, 100%) rotate(4deg);
+        animation: jump 2s ease-in-out infinite;
+        display: inline-block;
+        font-family: map-get($map: $fonts, $key: "titan");
+        color: #fff;
 
-    @media (min-width: 768px){
-        flex-wrap: nowrap;
+        @for $i from 1 through 11 {
+            &:nth-child(#{$i}) {
+                animation-delay: 100ms * $i;
+            }
+        }
+
+        @include medias(tablet) {
+            font-size: 6rem;
+        }
+
+        @include medias(desktop) {
+            font-size: 8rem;
+        }
     }
 }
 
-.galeria {
-    flex: $w-50;
-    padding: 5px;
-    
-    img {
-        width: $w-100;
-        margin-top: 1%;
+@keyframes jump {
+    33% {
+        text-shadow: 0 60px #f37121, 0 150px #f2aaaa;
+    }
+
+    50% {
+        transform: translate(0, 0) rotate(-4deg);
+        text-shadow: 0 0px #8fc0a9, 0 0px #84a9ac;
+    }
+
+    66.67% {
+        text-shadow: 0 -60px #d54062, 0 -150px #8fc0a9;
+    }
+}
+
+@media (max-height: 200px) {
+    .wrapper {
+        transform: scale(0.2, 0.2);
+
     }
 }
