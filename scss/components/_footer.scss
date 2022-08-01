@@ -5,7 +5,7 @@
     background: linear-gradient(0deg, rgba(148, 180, 159, 1) 48%, rgba(183, 204, 184, 1) 100%);
     padding: 5px 0;
     margin-top: 5px;
-    h1 {
+    h2 {
         text-decoration: none;
         font-family: map-get($map: $fonts, $key: "decoFont");
         color: map-get($map: $color, $key: "marron-r");

@@ -184,7 +184,7 @@
         background: linear-gradient(90deg, rgba(189,142,113,1) 47%, rgba(216,206,165,1) 84%);
     }
 
-    h1 {
+    h2 {
         margin-top: 50px;
         font-size: 3rem;
         color: map-get($map: $color, $key: "violeta");
@@ -248,12 +248,7 @@
 }
 
 
-.btns {
-    height: 100%;
-    position: relative;
-    width: 150px;
-    overflow: hidden;
-}
+
 
 .btns_more {
     background: transparent;
@@ -313,7 +308,7 @@
     height:250px;
     background-color: map-get($map: $color, $key: "verde-d");
 
-    h1 {
+    h2 {
         font-size: 2.3rem;
   
         font-family: map-get($map: $fonts, $key: "decoFont");
