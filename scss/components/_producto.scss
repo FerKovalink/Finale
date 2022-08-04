@@ -2,6 +2,7 @@
 .product-base {
     @extend %div-base;
     width: 100% !important;
+    
 
     @media (min-width: 820px) {
         width: 90% !important;
