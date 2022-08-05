@@ -10,7 +10,7 @@
 
 nav {
     background: linear-gradient(90deg, rgba(216, 206, 165, 1) 0%, rgba(189, 142, 113, 1) 51%);
-     position: sticky;
+    
     
     @media (min-width: 992px) {
         margin-top: 2px;
@@ -21,10 +21,11 @@ nav {
 
     ul {
         li {
-            font-size: 1.4rem;
+            font-size: 1.6rem;
+            font-weight: 500;
 
             @media (min-width: 992px) {
-                font-size: 1.8rem;
+                font-size: 2rem;
                 
             }
 
