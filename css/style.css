@@ -538,7 +538,6 @@ main {
 
 nav {
   background: linear-gradient(90deg, rgb(216, 206, 165) 0%, rgb(189, 142, 113) 51%);
-  position: sticky;
 }
 @media (min-width: 992px) {
   nav {
@@ -548,11 +547,12 @@ nav {
   }
 }
 nav ul li {
-  font-size: 1.4rem;
+  font-size: 1.6rem;
+  font-weight: 500;
 }
 @media (min-width: 992px) {
   nav ul li {
-    font-size: 1.8rem;
+    font-size: 2rem;
   }
 }
 nav ul li a {
@@ -780,6 +780,8 @@ nav img {
   background-color: #94B49F;
   padding: 2%;
   border-radius: 30px;
+  font-family: "Arima", cursive;
+  font-weight: 700;
 }
 @media (min-width: 500px) {
   .container-info-1 h2, .container-info-2 h2, .container-info-1 .h2, .container-info-2 .h2 {
@@ -1012,12 +1014,6 @@ nav img {
 /* Galeria imagenes */
 
 /* Acerca de */
-.acerca {
-  background-color: #bd8e71;
-  margin: 3% 5%;
-  padding: 4%;
-  border-radius: 10px;
-}
 
 /* Footer */
 .foot {
@@ -1033,7 +1029,7 @@ nav img {
   text-decoration: none;
   font-family: "Arima", cursive;
   color: #c96853;
-  font-size: 1.5rem;
+  font-size: 1.8rem;
   padding: 0 20px;
 }
 @media (min-width: 480px) {
