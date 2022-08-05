@@ -593,6 +593,7 @@ nav img {
   background: linear-gradient(90deg, rgb(216, 206, 165) 0%, rgb(189, 142, 113) 51%);
   color: #FCF8E8;
   z-index: 100;
+  box-shadow: 0 10px 35px rgba(0, 0, 0, 0.3);
 }
 @media (min-width: 991px) {
   #inicio {
@@ -1006,7 +1007,6 @@ nav img {
 }
 
 /* Galeria imagenes */
-/*Lighbox CSS*/
 
 /* Acerca de */
 .acerca {
@@ -1029,7 +1029,7 @@ nav img {
 .foot h2, .foot .h2 {
   text-decoration: none;
   font-family: "Arima", cursive;
-  color: #c96853;
+  color: #c97562;
   font-size: 1.5rem;
   padding: 0 20px;
 }

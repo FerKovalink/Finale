@@ -1,7 +1,7 @@
 /* inicio */
 .index-base {
     width: 100%;
-
+    
     @media (min-width: 991px) {
         margin-top: 5px;
         margin-left: 100px;
@@ -31,6 +31,7 @@
     background: linear-gradient(90deg, rgba(216, 206, 165, 1) 0%, rgba(189, 142, 113, 1) 51%);
     color: map-get($map: $color, $key: "bg");
     z-index: 100;
+    box-shadow: 0 10px 35px rgba(0, 0, 0, 0.3);
 
     @media (min-width: 991px) {
         width: 90%;
@@ -93,7 +94,6 @@
 .title-inner {
     display: inline-block;
     animation: inner-left 1s 1s ease both;
-
 }
 
 .cafe-inner {
@@ -116,7 +116,6 @@
             font-size: 12rem;
         }
     }
-
 }
 
 .mozart-inner {

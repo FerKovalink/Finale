@@ -10787,7 +10787,7 @@ main{
 /* .product-base {
     @extend %div-base;
 }*/
-.boton {
+.boton-img, .boton {
   color: #ab4493;
   font-size: 11px;
   text-transform: uppercase;
@@ -10799,14 +10799,15 @@ main{
   line-height: 16px;
   border-radius: 20px;
 }
-.boton i {
+.boton-img i, .boton i {
   font-size: 14px;
   font-weight: 700;
   margin-left: 5px;
 }
-.boton:hover, .boton:focus {
+.boton-img:hover, .boton:hover, .boton-img:focus, .boton:focus {
   color: #fff;
   background: #ab4493;
+  border: 1px solid #ab4493;
 }
 
 * {
@@ -10924,6 +10925,7 @@ nav img {
   background: linear-gradient(90deg, rgb(216, 206, 165) 0%, rgb(189, 142, 113) 51%);
   color: #FCF8E8;
   z-index: 100;
+  box-shadow: 0 10px 35px rgba(0, 0, 0, 0.3);
 }
 @media (min-width: 991px) {
   #inicio {
@@ -11729,86 +11731,30 @@ nav img {
 }
 
 /* Galeria imagenes */
-.container {
-  max-width: 800px;
-  margin: 5% auto;
-  padding: 20px;
-  background-color: #fff;
+.galeria-base p {
+  margin-top: 5px;
+  width: 80%;
+  color: #FCF8E8;
+  font-size: 1.7rem;
+  font-family: "Arima", cursive;
+}
+
+.boton-img {
+  background: #CEE5D0;
+  border: 1px solid #94B49F;
+  margin-bottom: 5px;
+}
+
+.img-art {
+  width: 90%;
+  padding: 2%;
+  margin: 5px 0;
   border-radius: 10px;
-  overflow: hidden;
-  box-shadow: 0 10px 35px rgba(0, 0, 0, 0.4);
+  background-color: #c97562;
 }
 
-.text-center {
-  text-align: center;
-  margin-bottom: 1em;
-}
-
-.lightbox-gallery {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: center;
-}
-
-.lightbox-gallery div > img {
-  max-width: 100%;
-  display: block;
-}
-
-.lightbox-gallery div {
-  margin: 10px;
-  flex-basis: 180px;
-}
-
-@media only screen and (max-width: 480px) {
-  .lightbox-gallery {
-    flex-direction: column;
-    align-items: center;
-  }
-  .lightbox > div {
-    margin-bottom: 10px;
-  }
-}
-/*Lighbox CSS*/
-.lightbox {
+#more {
   display: none;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(0, 0, 0, 0.7);
-  position: fixed;
-  top: 0;
-  left: 0;
-  z-index: 20;
-  padding-top: 30px;
-  box-sizing: border-box;
-}
-
-.lightbox img {
-  display: block;
-  margin: auto;
-}
-
-.lightbox .caption {
-  margin: 15px auto;
-  width: 50%;
-  text-align: center;
-  font-size: 1em;
-  line-height: 1.5;
-  font-weight: 700;
-  color: #eee;
-}
-
-.github-link {
-  font-size: 18px;
-  color: rgba(255, 255, 255, 0.7);
-}
-
-.github-link:hover,
-.github-link:active,
-.github-link:visited {
-  color: #fff;
-  text-decoration: none;
 }
 
 /* Acerca de */
@@ -11864,7 +11810,7 @@ nav img {
 .foot h2, .foot .h2 {
   text-decoration: none;
   font-family: "Arima", cursive;
-  color: #c96853;
+  color: #c97562;
   font-size: 1.5rem;
   padding: 0 20px;
 }

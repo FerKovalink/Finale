@@ -14,6 +14,7 @@
     <!-- mi css -->
     <link rel="stylesheet" href="../css/main.css">
 
+
 </head>
 
 <body>
@@ -54,52 +55,72 @@
     </header>
 
     <main>
-        <div class="container">
-            <h2 class="text-center">Lightbox Gallery</h2>
-            <div class="lightbox-gallery">
-                <div><img src="https://picsum.photos/id/343/300/300"
-                        data-image-hd="https://picsum.photos/id/343/600/600"
-                        alt="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit, quae, quam. Ut dolorum quia, unde dicta at harum porro officia obcaecati ipsam deserunt fugit dolore delectus quam, maxime nisi quo.">
-                </div>
-                <div><img src="https://picsum.photos/id/112/300/300"
-                        data-image-hd="https://picsum.photos/id/112/600/600"
-                        alt="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime accusamus officiis dignissimos doloribus consectetur harum eos sapiente optio aut minima.">
-                </div>
-                <div><img src="https://picsum.photos/id/155/300/300"
-                        data-image-hd="https://picsum.photos/id/155/600/600"
-                        alt="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates veritatis similique, amet, maiores soluta recusandae cupiditate, sed perspiciatis fugit minima, sunt dolores cum earum deserunt illo ipsum!">
-                </div>
-                <div><img src="https://picsum.photos/id/11/300/300" data-image-hd="https://picsum.photos/id/11/600/600"
-                        alt="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque laudantium dignissimos tenetur eos unde quidem repellat officiis nemo laboriosam necessitatibus deleniti commodi quis aliquid est atque tempora aut, nihil!">
-                </div>
-                <div><img src="https://picsum.photos/id/434/300/300"
-                        data-image-hd="https://picsum.photos/id/434/600/600"
-                        alt="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto minus consequatur soluta quaerat itaque, laboriosam quis a facilis, cumque, deleniti quas aperiam voluptate dolore. Enim nostrum sit eaque, porro eligendi illo placeat?">
-                </div>
-                <div><img src="https://picsum.photos/id/101/300/300"
-                        data-image-hd="https://picsum.photos/id/101/600/600"
-                        alt="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi suscipit quam, id aliquam totam aperiam quas rem debitis voluptatem pariatur, illo accusamus facilis eius ipsa! Reprehenderit libero, quas iste repudiandae distinctio, quos dignissimos.">
-                </div>
+
+        <!-- container imagenes -->
+        <div class="galeria-container">
+            <div class="galeria">
+                <img src="../img/productos/estampados.jpg" alt="Estampados" />
+            </div>
+            <div class="galeria">
+                <img src="../img/productos/principes.jpg" alt="para los nenes" />
+            </div>
+            <div class="galeria">
+                <img src="../img/productos/perzo.jpg" alt="personaliza tu compra" />
             </div>
         </div>
 
 
-        <div class="text-center github-link">
+        <!-- Galeria productos -->
+        <div class="galeria-base">
+            <img src="../img/roma/roma.jpg" class="img-art" alt="set roma">
+            <p>El set de cuna para Roma ya esta completo. Mira todos los articulos
 
-            <a class="github-link" href="https://github.com/humbl3man/lightboxify" target="_blank"><i
-                    class="fa fa-github"></i> Github Source Code</a>
+                <span id="dots.r">...</span></p>
 
+            <span id="more.r">
+                <img src="../img/roma/roma1.jpg" class="img-art" alt="juego de sabanas">
+                <img src="../img/roma/roma2.jpg" class="img-art" alt="almohadon">
+                <img src="../img/roma/roma3.jpg" class="img-art" alt="conjunto">
+
+            </span>
+            <button class="boton-img" onclick="btnRoma()" id="myBtn.r">Ver mas</button>
         </div>
-    </main>
 
-    </div>
-    <script src="js/script.js"></script>
-    <!-- JavaScript Bundle with Popper -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous">
-    </script>
+        <div class="galeria-base">
+            <img src="../img/brasil/brasil.jpg" class="img-art" alt="set a brasil">
+            <p>Ahora somos internacionales! El primer envio a Brasil ya es una realidad
 
-    
+                <span id="dots.b">...</span></p>
+
+            <span id="more.b">
+                <img src="../img/brasil/brasil1.jpg" class="img-art" alt="juego a brasil">
+                <img src="../img/brasil/brasil2.jpg" class="img-art" alt="combo">
+                <img src="../img/brasil/brasil3.jpg" class="img-art" alt="combo 2">
+
+            </span>
+            <button class="boton-img" onclick="btnBrasil()" id="myBtn.b">Ver mas</button>
+        </div>
+
+        <div class="galeria-base">
+            <img src="../img/sorteo/sorteo.jpg" class="img-art" alt="sorteo">
+            <p>Participa de todos nuestros sorteos! Enterate en nuestras redes de toda la info
+
+                <span id="dots.s">...</span></p>
+
+            <span id="more.s">
+                <img src="../img/sorteo/sorteo1.jpg" class="img-art" alt="juego del sorteo">
+            </span>
+            <button class="boton-img" onclick="btnSort()" id="myBtn.s">Ver más</button>
+        </div>
+
+
+        <!-- Galeria Script -->
+        <script src="../js/script.js"></script>
+        <!-- JavaScript Bundle with Popper -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous">
+        </script>
+
     </main>
 
     <footer class="foot">
