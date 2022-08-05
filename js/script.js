@@ -1,6 +1,7 @@
+//Boton Roma
 function btnRoma() {
 	var dots = document.getElementById("dots.r");
-	var moreText = document.getElementById("more.r");
+	var moreText = document.getElementById("mas.r");
 	var btnText = document.getElementById("myBtn.r");
   
 	if (dots.style.display === "none") {
@@ -15,9 +16,10 @@ function btnRoma() {
 
   }
 
+  //Boton Brasil
   function btnBrasil() {
 	var dots = document.getElementById("dots.b");
-	var moreText = document.getElementById("more.b");
+	var moreText = document.getElementById("mas.b");
 	var btnText = document.getElementById("myBtn.b");
   
 	if (dots.style.display === "none") {
@@ -32,9 +34,10 @@ function btnRoma() {
 
   }
 
+  //Boton Sorteo
   function btnSort() {
 	var dots = document.getElementById("dots.s");
-	var moreText = document.getElementById("more.s");
+	var moreText = document.getElementById("mas.s");
 	var btnText = document.getElementById("myBtn.s");
   
 	if (dots.style.display === "none") {

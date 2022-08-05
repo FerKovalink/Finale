@@ -31,16 +31,45 @@
 
 
 /* Galeria imagenes */
+.baset {
+    @include box-flex(center, center, column);
+
+    @media (min-width: 768px) {
+        flex-direction: row;
+    }
+}
+
 .galeria-base {
     @extend %div-base;
 
-    p {
-        margin-top: 5px;
-        width: 80%;
-        color: map-get($map: $color, $key: "bg");
-        font-size: 1.7rem;
-        font-family: map-get($map: $fonts, $key: "decoFont")
+    @media (min-width: 600px) {
+        margin: 10px 5px;
+
     }
+
+    @media (min-width: 820px) {
+        margin: 10px 15px;
+    }
+
+    p {
+        padding: 2%;
+        margin-top: 2px;
+        width: 100%;
+        color: map-get($map: $color, $key: "bg");
+        font-size: 1.9rem;
+        font-family: map-get($map: $fonts, $key: "decoFont");
+        background-color: map-get($map: $color, $key: "verde-d");
+        border-radius: 5px;
+
+        @media (min-width: 600px) {
+            font-size: 2.1rem;
+        }
+
+    }
+}
+
+.not {
+    display: none;
 }
 
 .boton-img {
@@ -49,22 +78,37 @@
     background: map-get($map: $color, $key: "verde-l");
     border: 1px solid map-get($map: $color, $key: "verde-d");
     color: map-get($map: $color, $key: "");
-    margin-bottom: 5px;
-
+    margin-bottom: 10px;
+    font-size: 1.3rem;
+    font-family: map-get($map: $fonts, $key: "noto");
 }
-
-
 
 
 .img-art {
     width: 90%;
     padding: 2%;
-    margin: 5px 0;
+    margin: 10px 0;
     border-radius: 10px;
     background-color: map-get($map: $color, $key: "marron-r");
 
+    @media (min-width: 600px) {
+        width: 80%;
+    }
+
+    @media (min-width: 1000px) {
+       
+    }
 }
 
-#more {
-    display: none;
+.img-art-sub {
+    @extend.img-art;
+    margin-left: 15%;
+    width: 70%;
+
+    @media (min-width: 600px) {
+        width: 60%;
+        margin-left: 20%;
+    }
+
+
 }

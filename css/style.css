@@ -502,6 +502,9 @@ main{
     @extend %div-base;
 }*/
 
+/* .boton-info {
+    @extend %boton;
+}*/
 * {
   margin: 0;
   padding: 0;
@@ -1029,7 +1032,7 @@ nav img {
 .foot h2, .foot .h2 {
   text-decoration: none;
   font-family: "Arima", cursive;
-  color: #c97562;
+  color: #c96853;
   font-size: 1.5rem;
   padding: 0 20px;
 }
