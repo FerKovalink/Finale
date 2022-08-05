@@ -10781,12 +10781,34 @@ main{
   width: 90%;
   margin: 10px 0;
   border-radius: 20px;
-  box-shadow: 0 10px 35px rgba(0, 0, 0, 0.4);
+  box-shadow: 0 10px 35px rgba(0, 0, 0, 0.3);
 }
 
 /* .product-base {
     @extend %div-base;
 }*/
+.boton {
+  color: #ab4493;
+  font-size: 11px;
+  text-transform: uppercase;
+  font-weight: 700;
+  background: none;
+  border: 1px solid #ab4493;
+  padding: 6px 14px;
+  margin-top: 10px;
+  line-height: 16px;
+  border-radius: 20px;
+}
+.boton i {
+  font-size: 14px;
+  font-weight: 700;
+  margin-left: 5px;
+}
+.boton:hover, .boton:focus {
+  color: #fff;
+  background: #ab4493;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -10820,6 +10842,7 @@ main {
 
 nav {
   background: linear-gradient(90deg, rgb(216, 206, 165) 0%, rgb(189, 142, 113) 51%);
+  position: sticky;
 }
 @media (min-width: 992px) {
   nav {
@@ -11133,7 +11156,7 @@ nav img {
 }
 @media (min-width: 768px) {
   .container-info-1 p, .container-info-2 p {
-    font-size: 1.5rem;
+    font-size: 1.6rem;
   }
 }
 @media (min-width: 1280px) {
@@ -11181,7 +11204,7 @@ nav img {
 @media (min-width: 820px) {
   .container_img, .container_img-2 {
     width: 70%;
-    margin-left: 40px;
+    margin-left: 15px;
   }
 }
 @media (min-width: 1280px) {
@@ -11195,24 +11218,21 @@ nav img {
     background: linear-gradient(90deg, rgb(216, 206, 165) 2%, rgb(189, 142, 113) 48%);
   }
 }
+@media (min-width: 820px) {
+  .container_img-2 {
+    width: 70%;
+    margin-left: 80px;
+  }
+}
+@media (min-width: 1000px) {
+  .container_img-2 {
+    margin-left: 150px;
+  }
+}
 
 .par {
   height: auto;
   overflow: hidden;
-}
-
-.btns_more {
-  background: transparent;
-  border: 1px solid #ab4493;
-  border-radius: 30px;
-  padding: 8px 12px;
-  color: #ab4493;
-  font-size: 1.5rem;
-  position: relative;
-  margin-top: 10px;
-  outline: none;
-  transform: translateY(50px);
-  animation: slideUp 0.8s ease-in-out forwards 1s;
 }
 
 .titulo-info {
@@ -11433,7 +11453,7 @@ nav img {
 }
 @media (min-width: 820px) {
   .product-base {
-    width: 90% !important;
+    width: 100% !important;
   }
 }
 
@@ -11458,29 +11478,6 @@ nav img {
   left: 0;
   right: 0;
   bottom: -20px;
-}
-
-.boton {
-  color: #ab4493;
-  font-size: 11px;
-  text-transform: uppercase;
-  font-weight: 700;
-  background: none;
-  border: 1px solid #ab4493;
-  padding: 6px 14px;
-  margin-top: 10px;
-  line-height: 16px;
-  border-radius: 20px;
-}
-.boton i {
-  font-size: 14px;
-  font-weight: 700;
-  margin-left: 5px;
-}
-.boton:hover, .boton:focus {
-  color: #fff;
-  background: #ab4493;
-  box-shadow: none;
 }
 
 .carousel {

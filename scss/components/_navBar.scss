@@ -1,5 +1,6 @@
 /*Nav*/
 .nav-base {
+   
     @media (min-width: 992px) {
         @include box-flex(center, center, row);
        
@@ -9,6 +10,7 @@
 
 nav {
     background: linear-gradient(90deg, rgba(216, 206, 165, 1) 0%, rgba(189, 142, 113, 1) 51%);
+     position: sticky;
     
     @media (min-width: 992px) {
         margin-top: 2px;

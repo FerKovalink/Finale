@@ -5,7 +5,7 @@
     
 
     @media (min-width: 820px) {
-        width: 90% !important;
+        width: 100% !important;
     }
 }
 
@@ -35,29 +35,7 @@
 }
 
 .boton {
-    color: map-get($map: $color, $key: "violeta");
-    font-size: 11px;
-    text-transform: uppercase;
-    font-weight: $textBold;
-    background: none;
-    border: 1px solid map-get($map: $color, $key: "violeta");
-    padding: 6px 14px;
-    margin-top: 10px;
-    line-height: 16px;
-    border-radius: 20px;
-
-    i {
-        font-size: 14px;
-        font-weight: $textBold;
-        margin-left: 5px;
-    }
-
-    &:hover,
-    &:focus {
-        color: $white;
-        background: map-get($map: $color, $key: "violeta");
-        box-shadow: none;
-    }
+    @extend %boton
 }
 
 .carousel {

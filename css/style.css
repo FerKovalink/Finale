@@ -187,10 +187,6 @@ button {
   text-transform: none;
 }
 
-[role=button] {
-  cursor: pointer;
-}
-
 button,
 [type=button] {
   -webkit-appearance: button;
@@ -505,6 +501,7 @@ main{
 /* .product-base {
     @extend %div-base;
 }*/
+
 * {
   margin: 0;
   padding: 0;
@@ -538,6 +535,7 @@ main {
 
 nav {
   background: linear-gradient(90deg, rgb(216, 206, 165) 0%, rgb(189, 142, 113) 51%);
+  position: sticky;
 }
 @media (min-width: 992px) {
   nav {
@@ -740,6 +738,8 @@ nav img {
 .info {
   margin-top: 20px;
   width: 95%;
+  box-shadow: 0 10px 35px rgba(0, 0, 0, 0.4);
+  border-radius: 10px;
 }
 @media (min-width: 1280px) {
   .info {
@@ -819,7 +819,7 @@ nav img {
 }
 @media (min-width: 768px) {
   .container-info-1 p, .container-info-2 p {
-    font-size: 1.5rem;
+    font-size: 1.6rem;
   }
 }
 @media (min-width: 1280px) {
@@ -852,7 +852,7 @@ nav img {
   margin: 5px;
 }
 
- .container_img-2 {
+.container_img, .container_img-2 {
   width: 100%;
   animation: slideIn 1.5s ease-in-out forwards;
   border-radius: 10px;
@@ -860,18 +860,18 @@ nav img {
   background-color: #bd8e71;
 }
 @media (min-width: 600px) {
-   .container_img-2 {
+  .container_img, .container_img-2 {
     background: linear-gradient(90deg, rgb(189, 142, 113) 47%, rgb(216, 206, 165) 92%);
   }
 }
 @media (min-width: 820px) {
-   .container_img-2 {
+  .container_img, .container_img-2 {
     width: 70%;
-    margin-left: 40px;
+    margin-left: 15px;
   }
 }
 @media (min-width: 1280px) {
-   .container_img-2 {
+  .container_img, .container_img-2 {
     width: 60%;
   }
 }
@@ -881,24 +881,21 @@ nav img {
     background: linear-gradient(90deg, rgb(216, 206, 165) 2%, rgb(189, 142, 113) 48%);
   }
 }
+@media (min-width: 820px) {
+  .container_img-2 {
+    width: 70%;
+    margin-left: 80px;
+  }
+}
+@media (min-width: 1000px) {
+  .container_img-2 {
+    margin-left: 150px;
+  }
+}
 
 .par {
   height: auto;
   overflow: hidden;
-}
-
-.btns_more {
-  background: transparent;
-  border: 1px solid #ab4493;
-  border-radius: 30px;
-  padding: 8px 12px;
-  color: #ab4493;
-  font-size: 1.5rem;
-  position: relative;
-  margin-top: 10px;
-  outline: none;
-  transform: translateY(50px);
-  animation: slideUp 0.8s ease-in-out forwards 1s;
 }
 
 .titulo-info {
@@ -1007,6 +1004,9 @@ nav img {
   width: 100%;
   margin-top: 10px;
 }
+
+/* Galeria imagenes */
+/*Lighbox CSS*/
 
 /* Acerca de */
 .acerca {

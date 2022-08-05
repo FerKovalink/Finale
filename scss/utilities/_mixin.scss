@@ -37,9 +37,34 @@ main{
 	width: $w-90;
 	margin: 10px 0;
 	border-radius: 20px;
-	box-shadow: 0 10px 35px rgba(0, 0, 0, 0.4);
+	box-shadow: 0 10px 35px rgba(0, 0, 0, 0.3);
 }
 
 /* .product-base {
     @extend %div-base;
 }*/
+
+%boton {
+	color: map-get($map: $color, $key: "violeta");
+	font-size: 11px;
+	text-transform: uppercase;
+	font-weight: $textBold;
+	background: none;
+	border: 1px solid map-get($map: $color, $key: "violeta");
+	padding: 6px 14px;
+	margin-top: 10px;
+	line-height: 16px;
+	border-radius: 20px;
+
+	i {
+		font-size: 14px;
+		font-weight: $textBold;
+		margin-left: 5px;
+	}
+
+	&:hover,
+	&:focus {
+		color: $white;
+		background: map-get($map: $color, $key: "violeta");
+	}
+}
