@@ -11118,6 +11118,8 @@ nav img {
   background-color: #94B49F;
   padding: 2%;
   border-radius: 30px;
+  font-family: "Arima", cursive;
+  font-weight: 600;
 }
 @media (min-width: 500px) {
   .container-info-1 h2, .container-info-2 h2, .container-info-1 .h2, .container-info-2 .h2 {

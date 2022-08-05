@@ -229,6 +229,8 @@
         background-color: map-get($map: $color, $key: "verde-d");
         padding: 2%;
         border-radius: 30px;
+        font-family: map-get($map: $fonts, $key: "decoFont");
+        font-weight: 600;
 
         @media (min-width: 500px) {
             font-size: 2.5rem;
