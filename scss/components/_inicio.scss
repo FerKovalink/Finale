@@ -1,7 +1,7 @@
 /* inicio */
 .index-base {
     width: 100%;
-    
+
     @media (min-width: 991px) {
         margin-top: 5px;
         margin-left: 100px;
@@ -20,7 +20,6 @@
     z-index: 50;
     background: map-get($map: $color, $key: "white");
 }
-
 
 #inicio {
     display: grid;
@@ -89,7 +88,6 @@
 .mozart {
     animation: outer-left 1s 1s cubic-bezier(0.5, 0, 0.1, 1) both;
 }
-
 
 .title-inner {
     display: inline-block;
@@ -283,10 +281,8 @@
     @extend .container-info-1;
     background: linear-gradient(0deg, rgba(216, 206, 165, 1) 20%, rgba(189, 142, 113, 1) 80%);
 
-
     @include medias(tablet) {
         background: linear-gradient(90deg, rgba(189, 142, 113, 1) 30%, rgba(216, 206, 165, 1) 84%);
-
     }
 }
 
@@ -340,14 +336,12 @@
     @include medias(desktop) {
         margin-left: 150px;
     }
-
 }
 
 .par {
     height: auto;
     overflow: hidden;
 }
-
 
 .titulo-info {
     overflow: hidden;
@@ -383,6 +377,7 @@
         transform: translateX(0px);
     }
 }
+
 
 /* Mapa */
 .mapa {
