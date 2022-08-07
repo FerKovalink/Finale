@@ -10,6 +10,7 @@
 @import url("https://fonts.googleapis.com/css?family=Noto+Sans");
 @import url("https://fonts.googleapis.com/css2?family=Titan+One&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Courgette&display=swap");
 :root {
   --bs-blue: #0d6efd;
   --bs-indigo: #6610f2;
@@ -10763,6 +10764,9 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+/* main {
+    	@include box-flex(center, center, column)
+	} */
 /*
 main{
 	@include medias(tablet){
@@ -11671,7 +11675,6 @@ nav img {
   transform: translate(0, 100%) rotate(4deg);
   animation: jump 2s ease-in-out infinite;
   display: inline-block;
-  font-family: "Titan One", cursive;
   color: #fff;
 }
 .wrapper span:nth-child(1) {
@@ -11812,7 +11815,7 @@ nav img {
 
 /* Acerca de */
 .acerca {
-  background-color: #bd8e71;
+  background-color: #d8cea5;
   margin: 3% 5%;
   padding: 4%;
   border-radius: 10px;
@@ -11826,17 +11829,55 @@ nav img {
   padding: 1%;
   background-color: #94B49F;
 }
+@media (min-width: 1280px) {
+  .ace__1 img {
+    width: 39%;
+  }
+}
 
 .ace__2 h1, .ace__2 .h1 {
   font-size: 2rem;
   margin-bottom: 10px;
-  color: #e7e7e7;
+  color: #bd8e71;
+  font-family: "Arima", cursive;
+  font-weight: 700;
+}
+@media (min-width: 600px) {
+  .ace__2 h1, .ace__2 .h1 {
+    font-size: 2.5rem;
+  }
+}
+@media (min-width: 1000px) {
+  .ace__2 h1, .ace__2 .h1 {
+    margin-left: 600px;
+  }
+}
+@media (min-width: 1280px) {
+  .ace__2 h1, .ace__2 .h1 {
+    margin-left: 700px;
+    font-size: 4rem;
+  }
 }
 .ace__2 p {
   font-size: 1.5rem;
-  font-family: "Noto Sans", sans-serif;
+  font-family: "Courgette", cursive;
   color: #e7e7e7;
   text-align: justify;
+  font-weight: 500;
+  background-color: #bd8e71;
+  padding: 2%;
+  border-radius: 10px;
+}
+@media (min-width: 600px) {
+  .ace__2 p {
+    font-size: 1.7rem;
+  }
+}
+@media (min-width: 1280px) {
+  .ace__2 p {
+    margin-left: 50px;
+    width: 95%;
+  }
 }
 
 .ace__button {
@@ -11854,6 +11895,24 @@ nav img {
 .base-404 img {
   margin-bottom: 10px;
   width: 100%;
+}
+@media (min-width: 600px) {
+  .base-404 img {
+    width: 80%;
+    margin-left: 30px;
+  }
+}
+@media (min-width: 992px) {
+  .base-404 img {
+    width: 60%;
+    margin-left: 30px;
+  }
+}
+@media (min-width: 1200px) {
+  .base-404 img {
+    width: 70%;
+    margin-left: 30px;
+  }
 }
 .base-404 h1, .base-404 .h1 {
   font-family: "Indie Flower", cursive;

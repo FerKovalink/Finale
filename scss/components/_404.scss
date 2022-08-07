@@ -6,6 +6,21 @@
     img {
         margin-bottom: 10px;
         width: 100%;
+
+         @include medias(tablet){
+             width: 80%;
+             margin-left: 30px;
+         }
+
+         @media (min-width: 992px) {
+            width: 60%;
+            margin-left: 30px;
+        }
+
+        @media (min-width: 1200px) {
+            width: 70%;
+            margin-left: 30px;
+        }
     }
 
 

@@ -5,6 +5,10 @@
 	flex-direction: $dire;
 }
 
+/* main {
+    	@include box-flex(center, center, column)
+	} */
+
 
 @mixin medias($breakpoint) {
 	@if $breakpoint==tablet {

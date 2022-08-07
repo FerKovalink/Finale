@@ -10,6 +10,7 @@
 @import url("https://fonts.googleapis.com/css?family=Noto+Sans");
 @import url("https://fonts.googleapis.com/css2?family=Titan+One&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Courgette&display=swap");
 :root {
   --bs-blue: #0d6efd;
   --bs-indigo: #6610f2;
@@ -488,6 +489,9 @@ iframe {
 /* rtl:begin:remove */
 
 /* rtl:end:remove */
+/* main {
+    	@include box-flex(center, center, column)
+	} */
 /*
 main{
 	@include medias(tablet){
@@ -1006,6 +1010,12 @@ nav img {
 /* Galeria imagenes */
 
 /* Acerca de */
+.acerca {
+  background-color: #d8cea5;
+  margin: 3% 5%;
+  padding: 4%;
+  border-radius: 10px;
+}
 
 /* 404 */
 
