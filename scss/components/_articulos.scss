@@ -10,16 +10,6 @@
 
 
 
-
-/* Galeria imagenes */
-.baset {
-    @include box-flex(center, center, column);
-
-    @media (min-width: 768px) {
-        flex-direction: row;
-    }
-}
-
 .galeria-base {
     @extend %div-base;
 

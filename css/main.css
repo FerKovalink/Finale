@@ -8,9 +8,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Splash&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Arima&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Noto+Sans");
-@import url("https://fonts.googleapis.com/css2?family=Titan+One&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Courgette&display=swap");
 :root {
   --bs-blue: #0d6efd;
   --bs-indigo: #6610f2;
@@ -11739,19 +11737,6 @@ nav img {
   }
 }
 /* Galeria */
-/* Galeria imagenes */
-.baset {
-  display: flex !important;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-}
-@media (min-width: 768px) {
-  .baset {
-    flex-direction: row;
-  }
-}
-
 @media (min-width: 600px) {
   .galeria-base {
     margin: 10px 5px;
@@ -11860,7 +11845,6 @@ nav img {
 }
 .ace__2 p {
   font-size: 1.5rem;
-  font-family: "Courgette", cursive;
   color: #e7e7e7;
   text-align: justify;
   font-weight: 500;

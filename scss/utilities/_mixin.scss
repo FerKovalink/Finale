@@ -70,8 +70,8 @@ main{
 	&:focus {
 		color: $white;
 		background: map-get($map: $color, $key: "violeta");
-		border: 1px solid map-get($map: $color, $key: "violeta");	
-		
+		border: 1px solid map-get($map: $color, $key: "violeta");
+
 	}
 }
 
@@ -80,31 +80,31 @@ main{
 }*/
 
 %galeria-banner {
-    display: flex;
-    width: $w-90;
-    padding: 1% 2%;
-    flex-wrap: wrap;
-    background: radial-gradient(circle, rgba(252, 248, 232, 1) 0%, rgba(189, 142, 113, 1) 38%);
-    border-radius: 10px;
-    margin: 10px 0;
-    box-shadow: 0 10px 35px rgba(0, 0, 0, 0.4);
-    border-radius: 10px;
+	display: flex;
+	width: $w-90;
+	padding: 1% 2%;
+	flex-wrap: wrap;
+	background: radial-gradient(circle, rgba(252, 248, 232, 1) 0%, rgba(189, 142, 113, 1) 38%);
+	border-radius: 10px;
+	margin: 10px 0;
+	box-shadow: 0 10px 35px rgba(0, 0, 0, 0.4);
+	border-radius: 10px;
 
-    @media (min-width: 768px) {
-        flex-wrap: nowrap;
-    }
+	@media (min-width: 768px) {
+		flex-wrap: nowrap;
+	}
 
-    @media (min-width: 1000px) {
-        width: 80%;
-    }
+	@media (min-width: 1000px) {
+		width: 80%;
+	}
 }
 
 %galeria-sub {
-    flex: $w-50;
-    padding: 5px;
+	flex: $w-50;
+	padding: 5px;
 
-    img {
-        width: $w-100;
-        margin-top: 10px;
-    }
+	img {
+		width: $w-100;
+		margin-top: 10px;
+	}
 }

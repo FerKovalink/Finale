@@ -1,22 +1,18 @@
 /*Nav*/
 .nav-base {
-   
+
     @media (min-width: 992px) {
         @include box-flex(center, center, row);
-       
-
     }
 }
 
 nav {
     background: linear-gradient(90deg, rgba(216, 206, 165, 1) 0%, rgba(189, 142, 113, 1) 51%);
-    
-    
+
     @media (min-width: 992px) {
         margin-top: 2px;
         border-radius: 360px;
         width: 550px;
-        
     }
 
     ul {
@@ -26,7 +22,6 @@ nav {
 
             @media (min-width: 992px) {
                 font-size: 2rem;
-                
             }
 
             a {
