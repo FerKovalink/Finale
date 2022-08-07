@@ -11817,7 +11817,7 @@ nav img {
 /* Acerca de */
 .acerca {
   background-color: #d8cea5;
-  margin: 3% 5%;
+  margin: 2% 5%;
   padding: 4%;
   border-radius: 10px;
 }
@@ -11833,6 +11833,7 @@ nav img {
 @media (min-width: 1280px) {
   .ace__1 img {
     width: 39%;
+    margin-bottom: 10px;
   }
 }
 
@@ -11851,6 +11852,7 @@ nav img {
 @media (min-width: 1000px) {
   .ace__2 h1, .ace__2 .h1 {
     margin-left: 600px;
+    font-size: 3rem;
   }
 }
 @media (min-width: 1280px) {

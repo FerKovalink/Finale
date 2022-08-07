@@ -1,7 +1,7 @@
 /* Acerca de */
 .acerca {
     background-color: map-get($map: $color, $key: "marco");
-    margin: 3% 5%;
+    margin: 2% 5%;
     padding: 4%;
     border-radius: 10px;
 }
@@ -17,6 +17,7 @@
 
         @media (min-width: 1280px) {
             width: 39%;
+            margin-bottom: 10px;
         }
     }
 }
@@ -35,6 +36,7 @@
 
         @media (min-width: 1000px) {
             margin-left: 600px;
+            font-size: 3rem;
         }
 
         @media (min-width: 1280px) {
