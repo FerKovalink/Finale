@@ -506,6 +506,7 @@ main{
 /* .boton-info {
     @extend %boton;
 }*/
+
 * {
   margin: 0;
   padding: 0;
@@ -1002,16 +1003,6 @@ nav img {
   }
 }
 /* Galeria */
-
-.galeria {
-  flex: 50%;
-  padding: 5px;
-}
-.galeria img {
-  width: 100%;
-  margin-top: 10px;
-}
-
 /* Galeria imagenes */
 
 /* Acerca de */

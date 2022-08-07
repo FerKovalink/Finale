@@ -9,6 +9,14 @@
     }
 }
 
+.gal-bannerp {
+    @extend %galeria-banner;
+}
+
+.gal-subp{
+    @extend %galeria-sub;
+}
+
 .carrusel-body h2 {
     color: map-get($map: $color, $key: "bg");
     font-size: 26px;
