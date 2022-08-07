@@ -76,3 +76,8 @@
     font-family: map-get($map: $fonts, $key: "noto");
     font-size: $textSm;
 }
+
+/* Mapa */
+.mapa-cont {
+    @extend %mapa;
+}

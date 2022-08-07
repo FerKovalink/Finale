@@ -511,6 +511,37 @@ main{
     @extend %boton;
 }*/
 
+ .mapa-in {
+  margin-top: 10px;
+  padding-top: 5px;
+  width: 100%;
+  height: 175px;
+  background-color: #94B49F;
+}
+@media (min-width: 1280px) {
+   .mapa-in {
+    height: 265px;
+  }
+}
+ .mapa-in h2, .mapa-in .h2 {
+  font-size: 2.3rem;
+  font-family: "Arima", cursive;
+  color: #e7e7e7;
+  text-align: center;
+}
+ .mapa-in iframe {
+  width: 100%;
+  height: 150px;
+}
+@media (min-width: 1280px) {
+   .mapa-in iframe {
+    height: 250px;
+  }
+}
+
+/* .mapa-in {
+    @extend %mapa;
+} */
 * {
   margin: 0;
   padding: 0;
@@ -533,6 +564,13 @@ main {
 }
 
 /*Nav*/
+/* header{
+    position: sticky;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+} */
 @media (min-width: 992px) {
   .nav-base {
     display: flex !important;
@@ -940,32 +978,8 @@ nav img {
   }
 }
 /* Mapa */
-.mapa {
+.mapa-in {
   margin-top: 20px;
-  padding-top: 5px;
-  width: 100%;
-  height: 175px;
-  background-color: #94B49F;
-}
-@media (min-width: 1280px) {
-  .mapa {
-    height: 265px;
-  }
-}
-.mapa h2, .mapa .h2 {
-  font-size: 2.3rem;
-  font-family: "Arima", cursive;
-  color: #e7e7e7;
-  text-align: center;
-}
-.mapa iframe {
-  width: 100%;
-  height: 150px;
-}
-@media (min-width: 1280px) {
-  .mapa iframe {
-    height: 250px;
-  }
 }
 
 /* Contacto */
@@ -1017,6 +1031,7 @@ nav img {
   border-radius: 10px;
 }
 
+/* Mapa */
 /* 404 */
 
 /* Footer */

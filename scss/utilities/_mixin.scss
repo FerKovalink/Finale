@@ -108,3 +108,36 @@ main{
 		margin-top: 10px;
 	}
 }
+
+%mapa {
+	margin-top: 10px;
+	padding-top: 5px;
+	width: 100%;
+	height: 175px;
+	background-color: map-get($map: $color, $key: "verde-d");
+
+	@media (min-width: 1280px) {
+		height: 265px;
+	}
+
+	h2 {
+		font-size: 2.3rem;
+
+		font-family: map-get($map: $fonts, $key: "decoFont");
+		color: map-get($map: $color, $key: "white");
+		text-align: center;
+	}
+
+	iframe {
+		width: 100%;
+		height: 150px;
+
+		@media (min-width: 1280px) {
+			height: 250px;
+		}
+	}
+}
+
+/* .mapa-in {
+    @extend %mapa;
+} */
