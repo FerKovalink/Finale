@@ -3,15 +3,24 @@
     @extend %galeria-banner;
 }
 
-.gal-sub{
+.gal-sub {
     @extend %galeria-sub;
 }
 
 
+/* Galeria imagenes */
+.baset {
+    @include box-flex(center, center, column);
 
+    @media (min-width: 768px) {
+        flex-direction: row;
+    }
+}
 
 .galeria-base {
     @extend %div-base;
+
+
 
     @media (min-width: 600px) {
         margin: 10px 5px;
@@ -65,9 +74,7 @@
         width: 80%;
     }
 
-    @media (min-width: 1000px) {
-       
-    }
+    @media (min-width: 1000px) {}
 }
 
 .img-art-sub {
