@@ -110,7 +110,7 @@
     }
 
     button {
-        width: $w-50;
+        width: $w-90;
         height: auto;
         padding-left: 5px;
         padding-right: 5px;
@@ -134,7 +134,7 @@
     }
 
     span {
-        color: map-get($map: $color, $key: "violeta");
+        color: map-get($map: $color, $key: "verde-d");
     }
 }
 

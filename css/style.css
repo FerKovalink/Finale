@@ -9,6 +9,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Arima&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Noto+Sans");
 @import url("https://fonts.googleapis.com/css2?family=Titan+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap");
 :root {
   --bs-blue: #0d6efd;
   --bs-indigo: #6610f2;
@@ -1015,6 +1016,8 @@ nav img {
 
 /* Acerca de */
 
+/* 404 */
+
 /* Footer */
 .foot {
   display: flex !important;
@@ -1023,13 +1026,12 @@ nav img {
   flex-direction: row;
   background: linear-gradient(0deg, rgb(148, 180, 159) 48%, rgb(183, 204, 184) 100%);
   padding: 5px 0;
-  margin-top: 5px;
 }
 .foot h2, .foot .h2 {
   text-decoration: none;
   font-family: "Arima", cursive;
   color: #c96853;
-  font-size: 1.8rem;
+  font-size: 1.6rem;
   padding: 0 20px;
 }
 @media (min-width: 480px) {

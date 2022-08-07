@@ -1,0 +1,99 @@
+/* 404 */
+.base-404 {
+
+    
+
+    img {
+        margin-bottom: 10px;
+        width: 100%;
+    }
+
+
+    h1 {
+        font-family: map-get($map: $fonts, $key: "error");
+        font-size: $textLg;
+        margin: 35px 10px 20px 10px;
+        font-weight: 700;
+        color: map-get($map: $color, $key: "verde-d");
+
+        @media (min-width: 480px) {
+           font-size: 4.3rem;
+        }
+
+        @include medias(tablet){
+            font-size: 5rem;
+            margin-left: 30px;
+        }
+    }
+
+    h2 {
+        font-family: map-get($map: $fonts, $key: "noto");
+        font-size: 1.7rem;
+        margin: 15px 10px;
+        text-align: end;
+        font-weight: 600;
+        color: map-get($map: $color, $key: "marron");
+
+        @media (min-width: 480px) {
+            font-size: 2.5rem;
+         }
+
+         @include medias(tablet){
+            font-size: 2.8rem;
+            margin-bottom: 20px;
+            margin-right: 20px;
+        }
+
+    }
+
+    p {
+        font-family: map-get($map: $fonts, $key: "error");
+        font-size: 1.6rem;
+        margin-top: 10px;
+        margin-left: 10px;
+        font-weight: 600;
+        color: map-get($map: $color, $key: "violeta");
+
+        @media (min-width: 480px) {
+            font-size: 2.3rem;
+         }
+
+         @include medias(tablet){
+            font-size: 3rem;
+            margin-left: 20px;
+            margin-bottom: 20px;
+        }
+    }
+}
+
+.img-error {
+    width: 100%;
+
+    @media (min-width: 992px) {
+        display: none;
+     }
+}
+
+.img-error-xl {
+    display: none;
+
+    @media (min-width: 992px) {
+        display: block;
+        width: 100%;
+     }
+}
+
+.boton-error {
+    @extend %boton;
+    background: map-get($map: $color, $key: "verde-l");
+    border: 1px solid map-get($map: $color, $key: "verde-d");
+    font-size: 1.2rem;
+    font-family: map-get($map: $fonts, $key: "decoFont");
+    margin-left: 20px;
+    width: 30%;
+    font-weight: 600;
+
+    @media (min-width: 480px) {
+        font-size: 1.8rem;
+     }
+}

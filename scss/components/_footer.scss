@@ -4,13 +4,12 @@
     @include box-flex(center, center, row);
     background: linear-gradient(0deg, rgba(148, 180, 159, 1) 48%, rgba(183, 204, 184, 1) 100%);
     padding: 5px 0;
-    margin-top: 5px;
 
     h2 {
         text-decoration: none;
         font-family: map-get($map: $fonts, $key: "decoFont");
         color: map-get($map: $color, $key: "marron-r");
-        font-size: 1.8rem;
+        font-size: 1.6rem;
         padding: 0 20px;
 
         @media (min-width: 480px) {

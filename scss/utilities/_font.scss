@@ -2,14 +2,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Arima&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Noto+Sans');
 @import url("https://fonts.googleapis.com/css2?family=Titan+One&display=swap");
-
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
 
 //Fonts
 $fonts:(
     'decoFont': ('Arima', cursive),
     'navFont': sans-serif,
     'noto': ('Noto Sans', sans-serif),
-    "titan":("Titan One", cursive),
+    "titan":("Titan One", cursive), /* borrar */
+    "error":('Indie Flower', cursive),
 );
 
 

@@ -9,6 +9,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Arima&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Noto+Sans");
 @import url("https://fonts.googleapis.com/css2?family=Titan+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap");
 :root {
   --bs-blue: #0d6efd;
   --bs-indigo: #6610f2;
@@ -10787,7 +10788,7 @@ main{
 /* .product-base {
     @extend %div-base;
 }*/
-.boton-img, .boton {
+.boton-error, .boton-img, .boton {
   color: #ab4493;
   font-size: 11px;
   text-transform: uppercase;
@@ -10799,12 +10800,12 @@ main{
   line-height: 16px;
   border-radius: 20px;
 }
-.boton-img i, .boton i {
+.boton-error i, .boton-img i, .boton i {
   font-size: 14px;
   font-weight: 700;
   margin-left: 5px;
 }
-.boton-img:hover, .boton:hover, .boton-img:focus, .boton:focus {
+.boton-error:hover, .boton-img:hover, .boton:hover, .boton-error:focus, .boton-img:focus, .boton:focus {
   color: #fff;
   background: #ab4493;
   border: 1px solid #ab4493;
@@ -11407,7 +11408,7 @@ nav img {
   padding-top: 15px;
 }
 .formulario button {
-  width: 50%;
+  width: 90%;
   height: auto;
   padding-left: 5px;
   padding-right: 5px;
@@ -11428,7 +11429,7 @@ nav img {
   float: center;
 }
 .formulario span {
-  color: #ab4493;
+  color: #94B49F;
 }
 
 .aviso {
@@ -11849,6 +11850,104 @@ nav img {
   font-size: 1.5rem;
 }
 
+/* 404 */
+.base-404 img {
+  margin-bottom: 10px;
+  width: 100%;
+}
+.base-404 h1, .base-404 .h1 {
+  font-family: "Indie Flower", cursive;
+  font-size: 3rem;
+  margin: 35px 10px 20px 10px;
+  font-weight: 700;
+  color: #94B49F;
+}
+@media (min-width: 480px) {
+  .base-404 h1, .base-404 .h1 {
+    font-size: 4.3rem;
+  }
+}
+@media (min-width: 600px) {
+  .base-404 h1, .base-404 .h1 {
+    font-size: 5rem;
+    margin-left: 30px;
+  }
+}
+.base-404 h2, .base-404 .h2 {
+  font-family: "Noto Sans", sans-serif;
+  font-size: 1.7rem;
+  margin: 15px 10px;
+  text-align: end;
+  font-weight: 600;
+  color: #bd8e71;
+}
+@media (min-width: 480px) {
+  .base-404 h2, .base-404 .h2 {
+    font-size: 2.5rem;
+  }
+}
+@media (min-width: 600px) {
+  .base-404 h2, .base-404 .h2 {
+    font-size: 2.8rem;
+    margin-bottom: 20px;
+    margin-right: 20px;
+  }
+}
+.base-404 p {
+  font-family: "Indie Flower", cursive;
+  font-size: 1.6rem;
+  margin-top: 10px;
+  margin-left: 10px;
+  font-weight: 600;
+  color: #ab4493;
+}
+@media (min-width: 480px) {
+  .base-404 p {
+    font-size: 2.3rem;
+  }
+}
+@media (min-width: 600px) {
+  .base-404 p {
+    font-size: 3rem;
+    margin-left: 20px;
+    margin-bottom: 20px;
+  }
+}
+
+.img-error {
+  width: 100%;
+}
+@media (min-width: 992px) {
+  .img-error {
+    display: none;
+  }
+}
+
+.img-error-xl {
+  display: none;
+}
+@media (min-width: 992px) {
+  .img-error-xl {
+    display: block;
+    width: 100%;
+  }
+}
+
+.boton-error {
+  background: #CEE5D0;
+  border: 1px solid #94B49F;
+  font-size: 1.2rem;
+  font-family: "Arima", cursive;
+  margin-left: 20px;
+  width: 30%;
+  font-weight: 600;
+}
+@media (min-width: 480px) {
+  .boton-error {
+    font-size: 1.8rem;
+  }
+}
+
 /* Footer */
 .foot {
   display: flex !important;
@@ -11857,13 +11956,12 @@ nav img {
   flex-direction: row;
   background: linear-gradient(0deg, rgb(148, 180, 159) 48%, rgb(183, 204, 184) 100%);
   padding: 5px 0;
-  margin-top: 5px;
 }
 .foot h2, .foot .h2 {
   text-decoration: none;
   font-family: "Arima", cursive;
   color: #c96853;
-  font-size: 1.8rem;
+  font-size: 1.6rem;
   padding: 0 20px;
 }
 @media (min-width: 480px) {

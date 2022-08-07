@@ -77,7 +77,6 @@
 
     background: map-get($map: $color, $key: "verde-l");
     border: 1px solid map-get($map: $color, $key: "verde-d");
-    color: map-get($map: $color, $key: "");
     margin-bottom: 10px;
     font-size: 1.3rem;
     font-family: map-get($map: $fonts, $key: "noto");
