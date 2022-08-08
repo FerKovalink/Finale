@@ -10,7 +10,7 @@
 
 /* Galeria imagenes */
 .baset {
-    @include box-flex(center, center, column);
+    @include box-flex(center, flex-start, column);
 
     @media (min-width: 768px) {
         flex-direction: row;

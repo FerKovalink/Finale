@@ -11758,7 +11758,7 @@ nav img {
 .baset {
   display: flex !important;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
   flex-direction: column;
 }
 @media (min-width: 768px) {
