@@ -11760,10 +11760,12 @@ nav img {
   justify-content: center;
   align-items: flex-start;
   flex-direction: column;
+  margin-left: 35px;
 }
 @media (min-width: 768px) {
   .baset {
     flex-direction: row;
+    margin: 0;
   }
 }
 

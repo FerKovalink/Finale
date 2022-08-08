@@ -12,8 +12,11 @@
 .baset {
     @include box-flex(center, flex-start, column);
 
+    margin-left: 35px;
+
     @media (min-width: 768px) {
         flex-direction: row;
+        margin: 0;
     }
 }
 
