@@ -20,5 +20,5 @@ El formulario de contacto es funcional. Hay un archivo “enviar.php” dentro d
 
 Hay dos archivos JS para el carousel de productos y los botones en artículos
 
-La página cuenta con dominio propio www.decokids.com.ar, esta hosteado en Hostinger.
+La página cuenta con dominio propio www.decokids.com.ar, esta hosteado en Hostinger. Tiene google 
 
