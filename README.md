@@ -5,7 +5,7 @@
 ###### Pagina de Github [Github Pages](https://ferkovalink.github.io/decokids/)
 ## Introducción
 Es una página web, con el propósito de dar a conocer al cliente los productos y servicios que ofrece Victoria Deco Kids. Esta conformada por 6 templates: Index, Contacto, Articulos, Ofertas, Nosotros y error 404. Cada template cuenta con su head, body, footer, título, descripción y metas google. Todo el CSS está hecho en SASS. La página es full responsive, tanto para mobile, Tablet y desktop.
-Cuenta con dominio propio www.decokids.com.ar, está alojado en Hostinger. También se encuentra registrada en google analytics y google search.
+Cuenta con dominio propio Decokids.com.ar está alojado en Hostinger. También se encuentra registrada en google analytics y google search.
 
 ## Lenguajes y Entornos
 - **Visual Estudio**: Elegí el IDE de Visual Studio para realizar el proyecto completo. Es un panel de inicio creativo que se puede usar para editar, depurar y compilar código y, después, publicar una aplicación.
