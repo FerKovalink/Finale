@@ -16,6 +16,7 @@ Cuenta con dominio propio www.decokids.com.ar está alojado en Hostinger. Tambi�
 - **PHP**: El formulario de contacto es funcional gracias al .php que se encarga de recopilar la información del formulario y enviarla por email, detallando cada campo.
 - **Bootstrap**: El carousel de productos y la navbar están hechos en Bootstrap.
 
+
 ## Descripción de los templates
 - ### Index
 Es la página principal, muestra un banner animado, información de ofertas, un iframe de google maps y footer.
@@ -28,6 +29,6 @@ Ofertas de la semana se detallan en un carousel BT, se muestran de a 3 productos
 - ### Nosotros
 Es la página About, cuenta con una breve descripción sobre, que es Deco Kids? Y un google maps debajo.
 - ### Error 404
-Página de error 404 personalizada. Cuenta con un botón que redirige al Index.
+Página de error 404 personalizada. El botón redirige al Index.
 
 
