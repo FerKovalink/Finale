@@ -116,12 +116,14 @@
 }
 
 .icnWtp {
-	background: #25d366;
-	width: 100%;
-	border-radius: 360px;
-	transition: all 300ms ease;
+    img {
+        background: #25d366;
+        width: 100%;
+        border-radius: 360px;
+        transition: all 300ms ease;
 
-	&:hover {
-		background: white;
-	}
+        &:hover {
+            background: white;
+        }
+    }
 }
