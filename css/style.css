@@ -559,15 +559,6 @@ main{
 /* .mapa-in {
     @extend %mapa;
 } */
-
-/* .btnWtp {
-    @extend %btnWtp;
-} */
-
-/* 
-.icnWtp {
-    @extend %icnWtp;
-} */
 * {
   margin: 0;
   padding: 0;
@@ -1009,6 +1000,37 @@ nav img {
 }
 
 /* Whatsapp boton */
+.btnWtp {
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  border-radius: 360px;
+  width: 40px;
+  height: 40px;
+  transition: all 300ms ease;
+  box-shadow: 0 1px 10px rgba(0, 0, 0, 0.3);
+  z-index: 100;
+  background: transparent;
+}
+@media (min-width: 820px) {
+  .btnWtp {
+    bottom: 30px;
+    right: 25px;
+    width: 50px;
+    height: 50px;
+  }
+}
+
+.icnWtp {
+  background: #25d366;
+  width: 100%;
+  border-radius: 360px;
+  transition: all 300ms ease;
+}
+.icnWtp:hover {
+  background: white;
+}
+
 /* Contacto */
 
 .contacto {
@@ -1031,6 +1053,38 @@ nav img {
   color: #747d89;
 }
 
+/* Whatsapp boton */
+.btnWtp {
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  border-radius: 360px;
+  width: 40px;
+  height: 40px;
+  transition: all 300ms ease;
+  box-shadow: 0 1px 10px rgba(0, 0, 0, 0.3);
+  z-index: 100;
+  background: transparent;
+}
+@media (min-width: 820px) {
+  .btnWtp {
+    bottom: 30px;
+    right: 25px;
+    width: 50px;
+    height: 50px;
+  }
+}
+
+.icnWtp {
+  background: #25d366;
+  width: 100%;
+  border-radius: 360px;
+  transition: all 300ms ease;
+}
+.icnWtp:hover {
+  background: white;
+}
+
 /* Producto */
 
 /* Animated */
@@ -1048,10 +1102,72 @@ nav img {
   }
 }
 /* Whatsapp boton */
+.btnWtp {
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  border-radius: 360px;
+  width: 40px;
+  height: 40px;
+  transition: all 300ms ease;
+  box-shadow: 0 1px 10px rgba(0, 0, 0, 0.3);
+  z-index: 100;
+  background: transparent;
+}
+@media (min-width: 820px) {
+  .btnWtp {
+    bottom: 30px;
+    right: 25px;
+    width: 50px;
+    height: 50px;
+  }
+}
+
+.icnWtp {
+  background: #25d366;
+  width: 100%;
+  border-radius: 360px;
+  transition: all 300ms ease;
+}
+.icnWtp:hover {
+  background: white;
+}
+
 /* Galeria */
 /* Galeria imagenes */
 
 /* Whatsapp boton */
+.btnWtp {
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  border-radius: 360px;
+  width: 40px;
+  height: 40px;
+  transition: all 300ms ease;
+  box-shadow: 0 1px 10px rgba(0, 0, 0, 0.3);
+  z-index: 100;
+  background: transparent;
+}
+@media (min-width: 820px) {
+  .btnWtp {
+    bottom: 30px;
+    right: 25px;
+    width: 50px;
+    height: 50px;
+  }
+}
+
+.icnWtp {
+  background: #25d366;
+  width: 100%;
+  border-radius: 360px;
+  transition: all 300ms ease;
+}
+.icnWtp:hover {
+  background: white;
+}
+
 /* Acerca de */
 .acerca {
   background-color: #d8cea5;
@@ -1062,6 +1178,37 @@ nav img {
 
 /* Mapa */
 /* Whatsapp boton */
+.btnWtp {
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  border-radius: 360px;
+  width: 40px;
+  height: 40px;
+  transition: all 300ms ease;
+  box-shadow: 0 1px 10px rgba(0, 0, 0, 0.3);
+  z-index: 100;
+  background: transparent;
+}
+@media (min-width: 820px) {
+  .btnWtp {
+    bottom: 30px;
+    right: 25px;
+    width: 50px;
+    height: 50px;
+  }
+}
+
+.icnWtp {
+  background: #25d366;
+  width: 100%;
+  border-radius: 360px;
+  transition: all 300ms ease;
+}
+.icnWtp:hover {
+  background: white;
+}
+
 /* 404 */
 
 /* Footer */

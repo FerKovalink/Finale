@@ -10880,44 +10880,6 @@ main{
 /* .mapa-in {
     @extend %mapa;
 } */
-.btnWtsp {
-  position: fixed;
-  bottom: 10px;
-  right: 10px;
-  border-radius: 360px;
-  width: 40px;
-  height: 40px;
-  transition: all 300ms ease;
-  box-shadow: 0 1px 10px rgba(0, 0, 0, 0.3);
-  z-index: 100;
-  background: transparent;
-}
-@media (min-width: 820px) {
-  .btnWtsp {
-    bottom: 30px;
-    right: 25px;
-    width: 50px;
-    height: 50px;
-  }
-}
-
-/* .btnWtp {
-    @extend %btnWtp;
-} */
-.icnWtsp {
-  background: #25d366;
-  width: 100%;
-  border-radius: 360px;
-  transition: all 300ms ease;
-}
-.icnWtsp:hover {
-  background: white;
-}
-
-/* 
-.icnWtp {
-    @extend %icnWtp;
-} */
 * {
   margin: 0;
   padding: 0;
@@ -11389,6 +11351,37 @@ nav img {
 }
 
 /* Whatsapp boton */
+.btnWtp {
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  border-radius: 360px;
+  width: 40px;
+  height: 40px;
+  transition: all 300ms ease;
+  box-shadow: 0 1px 10px rgba(0, 0, 0, 0.3);
+  z-index: 100;
+  background: transparent;
+}
+@media (min-width: 820px) {
+  .btnWtp {
+    bottom: 30px;
+    right: 25px;
+    width: 50px;
+    height: 50px;
+  }
+}
+
+.icnWtp {
+  background: #25d366;
+  width: 100%;
+  border-radius: 360px;
+  transition: all 300ms ease;
+}
+.icnWtp:hover {
+  background: white;
+}
+
 /* Contacto */
 @media (min-width: 820px) {
   .contact-base {
@@ -11541,6 +11534,38 @@ nav img {
 .formulario textarea:focus {
   outline: 0;
   border: 1px solid #19c26e;
+}
+
+/* Whatsapp boton */
+.btnWtp {
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  border-radius: 360px;
+  width: 40px;
+  height: 40px;
+  transition: all 300ms ease;
+  box-shadow: 0 1px 10px rgba(0, 0, 0, 0.3);
+  z-index: 100;
+  background: transparent;
+}
+@media (min-width: 820px) {
+  .btnWtp {
+    bottom: 30px;
+    right: 25px;
+    width: 50px;
+    height: 50px;
+  }
+}
+
+.icnWtp {
+  background: #25d366;
+  width: 100%;
+  border-radius: 360px;
+  transition: all 300ms ease;
+}
+.icnWtp:hover {
+  background: white;
 }
 
 /* Producto */
@@ -11793,6 +11818,37 @@ nav img {
   }
 }
 /* Whatsapp boton */
+.btnWtp {
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  border-radius: 360px;
+  width: 40px;
+  height: 40px;
+  transition: all 300ms ease;
+  box-shadow: 0 1px 10px rgba(0, 0, 0, 0.3);
+  z-index: 100;
+  background: transparent;
+}
+@media (min-width: 820px) {
+  .btnWtp {
+    bottom: 30px;
+    right: 25px;
+    width: 50px;
+    height: 50px;
+  }
+}
+
+.icnWtp {
+  background: #25d366;
+  width: 100%;
+  border-radius: 360px;
+  transition: all 300ms ease;
+}
+.icnWtp:hover {
+  background: white;
+}
+
 /* Galeria */
 /* Galeria imagenes */
 .baset {
@@ -11871,6 +11927,37 @@ nav img {
 }
 
 /* Whatsapp boton */
+.btnWtp {
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  border-radius: 360px;
+  width: 40px;
+  height: 40px;
+  transition: all 300ms ease;
+  box-shadow: 0 1px 10px rgba(0, 0, 0, 0.3);
+  z-index: 100;
+  background: transparent;
+}
+@media (min-width: 820px) {
+  .btnWtp {
+    bottom: 30px;
+    right: 25px;
+    width: 50px;
+    height: 50px;
+  }
+}
+
+.icnWtp {
+  background: #25d366;
+  width: 100%;
+  border-radius: 360px;
+  transition: all 300ms ease;
+}
+.icnWtp:hover {
+  background: white;
+}
+
 /* Acerca de */
 .acerca {
   background-color: #d8cea5;
@@ -11952,6 +12039,37 @@ nav img {
 
 /* Mapa */
 /* Whatsapp boton */
+.btnWtp {
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  border-radius: 360px;
+  width: 40px;
+  height: 40px;
+  transition: all 300ms ease;
+  box-shadow: 0 1px 10px rgba(0, 0, 0, 0.3);
+  z-index: 100;
+  background: transparent;
+}
+@media (min-width: 820px) {
+  .btnWtp {
+    bottom: 30px;
+    right: 25px;
+    width: 50px;
+    height: 50px;
+  }
+}
+
+.icnWtp {
+  background: #25d366;
+  width: 100%;
+  border-radius: 360px;
+  transition: all 300ms ease;
+}
+.icnWtp:hover {
+  background: white;
+}
+
 /* 404 */
 .base-404 img {
   margin-bottom: 10px;
