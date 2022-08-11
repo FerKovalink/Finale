@@ -92,3 +92,12 @@
 
 
 }
+
+/* Whatsapp boton */
+.btnWtp {
+    @extend %btnWtp;
+}
+
+.icnWtp {
+    @extend %icnWtp;
+}

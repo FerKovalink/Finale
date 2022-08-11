@@ -384,3 +384,12 @@
     @extend %mapa;
     margin-top: 20px;
 }
+
+/* Whatsapp boton */
+.btnWtp {
+    @extend %btnWtp;
+}
+
+.icnWtp {
+    @extend %icnWtp;
+}
