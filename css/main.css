@@ -10880,7 +10880,7 @@ main{
 /* .mapa-in {
     @extend %mapa;
 } */
-.btnWtpa, .btnWtpr, .btnWtpp, .btnWtpc, .btnWtpi {
+.wtpa, .wtpr, .wtpp, .wtpc, .wtpi {
   position: fixed;
   bottom: 10px;
   right: 10px;
@@ -10893,20 +10893,20 @@ main{
   background: transparent;
 }
 @media (min-width: 820px) {
-  .btnWtpa, .btnWtpr, .btnWtpp, .btnWtpc, .btnWtpi {
+  .wtpa, .wtpr, .wtpp, .wtpc, .wtpi {
     bottom: 30px;
     right: 25px;
     width: 50px;
     height: 50px;
   }
 }
-.btnWtpa img, .btnWtpr img, .btnWtpp img, .btnWtpc img, .btnWtpi img {
+.wtpa img, .wtpr img, .wtpp img, .wtpc img, .wtpi img {
   background: #25d366;
   width: 100%;
   border-radius: 360px;
   transition: all 300ms ease;
 }
-.btnWtpa img:hover, .btnWtpr img:hover, .btnWtpp img:hover, .btnWtpc img:hover, .btnWtpi img:hover {
+.wtpa img:hover, .wtpr img:hover, .wtpp img:hover, .wtpc img:hover, .wtpi img:hover {
   background: white;
 }
 
