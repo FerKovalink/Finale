@@ -18,7 +18,7 @@ Cuenta con dominio propio www.decokids.com.ar está alojado en Hostinger. Tambi�
 
 ## Descripción de los templates
 - ### Index
-Es la página principal, muestra un banner animado, información de ofertas, un iframe de google maps y footer.
+Es la página principal, muestra un banner animado, información de ofertas, un iframe de google maps y footer. Todos los templates cuentan con un btn a Whatsapp flotando del lado derecho abajo.
 - ### Contacto
 Cuenta con un formulario de contacto, totalmente funcional gracias a un .php que cree. Toda la info ingresada llega por email.
 - ### Artículos
@@ -28,4 +28,4 @@ Ofertas de la semana se detallan en un carousel BT, se muestran de a 3 productos
 - ### Nosotros
 Es la página About, cuenta con una breve descripción sobre, que es Deco Kids? Y un google maps debajo.
 - ### Error 404
-Página de error 404 personalizada. El botón redirige al Index.
+Página de error 404 personalizada. El botón redirige al Index. Para acceder presionar boton Comprar en el primer producto de Ofertas.
