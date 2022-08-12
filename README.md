@@ -18,7 +18,7 @@ Cuenta con dominio propio www.decokids.com.ar está alojado en Hostinger. Tambi�
 
 ## Descripción de los templates
 - ### Index
-Es la página principal, muestra un banner animado, información de ofertas, un iframe de google maps y footer. Todos los templates cuentan con un btn a Whatsapp flotando del lado derecho abajo.
+Es la página principal, muestra un banner animado, información de ofertas, un iframe de google maps y footer. Todos los templates cuentan con un btn a Whatsapp del lado derecho abajo.
 - ### Contacto
 Cuenta con un formulario de contacto, totalmente funcional gracias a un .php que cree. Toda la info ingresada llega por email.
 - ### Artículos
